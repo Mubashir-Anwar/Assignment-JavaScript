@@ -103,30 +103,36 @@
 
 //-----------------Chapter 5 (MATH EXPRESSIONS)------------------------------------
 //Question 1
-// var a=5 , b= 8 , c=10;
-// var x=(a+b+c);
-// document.write(x);
+// var a=3 , b=5
+// var x=(a+b);
+// document.write("Sum of ",a," and ",b," is ", x);
 
 //Question 2
-// var a=5 , b= 8 , c=10;
-// var x=(a-b-c);
-// document.write(x);
+// var a=3 , b=5
+// var x=(a-b);
+// document.write("Subtraction of ",a," and ",b," is ",x,"<br>");
 
-// var a=5 , b= 8 , c=10;
-// var x=(a*b/c);
-// document.write(x);
+// var c=3 , d=5
+// var y=(c*d);
+// document.write("Multiplication of ",c," and ",d," is ","<br>");
+
+// var e=3 , f=5
+// var z=(e/f);
+// document.write("Division of ",e," and ",f," is ",z,"<br>");
+
+// var g=3 , h=5
+// var p=(g%h);
+// document.write("Modulo of ",g," and ",h," is ",p);
 
 //Question 3
 // var a= 5
-// // document.write("Initial value: " + a)
-// // document.write("value after increment: "+ ++a)
-// var b= 7
-// x= ++a + b
-// // document.write ("Value after increment: " + x);
-// y= --x
-// // document.write("Value after decrement: " + y)
-// // p= y/12
-// // document.write("The remainder is: " + p)
+// document.write("Initial value: " + a, "<br>" )
+// document.write("value after increment: "+ ++a, "<br>")
+// x=a + ++a
+// document.write ("Value after increment: " + x,"<br>");
+// document.write("Value after decrement: " + --x,"<br>")
+// p= x % 3
+// document.write("The remainder is: " + p)
 
 //Question 4
 // var ticketPrice=600
@@ -134,31 +140,69 @@
 //  p= 5
 //  y= ticketPrice * p
 //  z=" tickets to a movie is "
-// document.write(x + p + z + y);
+//  q=" PKR"
+// document.write(x + p + z + y + q);
 
 //Question 5
 // var number=4
 // var a=1 , b=2 , c=3 , d=4, e=5, f=6, g=7, h=8, i=9, j=10;
-// document.write(number * a)
-// document.write(number * b)
-// document.write(number * c)
-// document.write(number * d)
-// document.write(number * e)
-// document.write(number * g)
-// document.write(number * h)
-// document.write(number * i)
-// document.write(number * j)
+// document.write("4 * 1 = " , number * a , "<br>")
+// document.write("4 * 2 = " , number * b , "<br>")
+// document.write("4 * 3 = " , number * c , "<br>")
+// document.write("4 * 4 = " , number * d , "<br>")
+// document.write("4 * 5 = " , number * e , "<br>")
+// document.write("4 * 6 = " , number * f , "<br>")
+// document.write("4 * 7 = " , number * g , "<br>")
+// document.write("4 * 8 = " , number * h , "<br>")
+// document.write("4 * 9 = " , number * i , "<br>")
+// document.write("4 * 9 = " , number * j , "<br>")
 
 //Question 6
+// var C=25
+// F=(C*9/5)+32
+// document.write(C," is ", F , "<br>")
+
+// var g=70
+// H=(g-32)*5/9
+// document.write(g," is ", H)
 
 // Question 7
+// document.write("<h1>", "Shopping Cart", "</h2>");
 // var a=650;
+// document.write("Price of item 1 is ", a, "<br>")
 // var x=3;
-// var g=a*x;
+// document.write("Quantity of item 1 is ", x ,"<br>")
 // var b=100;
+// document.write("Price of item 2 is ", b, "<br>")
 // var y=7;
-// var h=b*y   
+// document.write("Quantity of item 2 is ", y, "<br>")  
 // var c=100;
-// document.write( g + h + c)
+
+// var g=a*x;
+// var h=b*y;
+// document.write("Shipping charges ", c, "<br>", "<br>")
+// document.write("Total cost of your order is " , g + h + c)
 
 // Question 8
+// document.write("<h1>Marks Sheet</h1>")
+// var c=804
+// document.write("Obtain Marks are: ", c, "<br>")
+// var d=980
+// document.write("Total Marks are: ", d, "<br>")
+// var a=c/d*100
+// document.write("Percentage: ", a,"%",)
+
+//Question 9
+// document.write("<h1> Currency in PKR</h1>")
+// var a=10, b=25, c=104.80, d=28;
+// x=a*c , y=b*d, z=x+y
+// document.write("Total Currency in PKR: ", z)
+
+//Question 10
+// var x=50
+// document.write("Additon of 5 is: ", y=(x+5) ,"<br>" ,"Multiply by 10 is: ", z=(y*10), "<br>" , "Divide by 2 is: ", p=(z/2) )
+
+//Question 11
+document.write("<h1>Age Calculator</h1>")
+var a=2022 , b=1998 ;
+document.write()
